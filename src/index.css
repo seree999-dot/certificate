@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Prompt', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-kanit {
+  font-family: 'Kanit', sans-serif;
+}
+
+.font-sarabun {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.font-prompt {
+  font-family: 'Prompt', sans-serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-charm {
+  font-family: 'Charm', cursive;
+}
+
+/* Custom certificate patterns */
+.cert-gold-border {
+  border: 12px double #b8860b;
+  box-shadow: inset 0 0 0 2px #d4af37, inset 0 0 0 6px #fff, inset 0 0 0 8px #d4af37;
+}
+
+.cert-blue-border {
+  border: 12px double #1e3a8a;
+  box-shadow: inset 0 0 0 2px #3b82f6, inset 0 0 0 6px #fff, inset 0 0 0 8px #3b82f6;
+}
+
+.cert-emerald-border {
+  border: 12px double #064e3b;
+  box-shadow: inset 0 0 0 2px #10b981, inset 0 0 0 6px #fff, inset 0 0 0 8px #10b981;
+}
+
+.cert-burgundy-border {
+  border: 12px double #7f1d1d;
+  box-shadow: inset 0 0 0 2px #dc2626, inset 0 0 0 6px #fff, inset 0 0 0 8px #dc2626;
+}
+
+.cert-purple-border {
+  border: 12px double #581c87;
+  box-shadow: inset 0 0 0 2px #a855f7, inset 0 0 0 6px #fff, inset 0 0 0 8px #a855f7;
+}
+
+/* Official Google Sign-in Material Button */
+.gsi-material-button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-appearance: none;
+  background-color: WHITE;
+  background-image: none;
+  border: 1px solid #747775;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  font-family: 'Roboto', 'Prompt', sans-serif;
+  font-size: 14px;
+  height: 42px;
+  letter-spacing: 0.25px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 16px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, box-shadow 0.2s, border-color 0.2s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.gsi-material-button:hover {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gsi-material-button-icon {
+  height: 20px;
+  margin-right: 12px;
+  min-width: 20px;
+  width: 20px;
+}
+
+.gsi-material-button-contents {
+  font-weight: 500;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CertiFlow - ระบบออกเกียรติบัตรและส่งอีเมลอัตโนมัติ",
+  "description": "ระบบตรวจสอบรายชื่อจาก Google Sheets ออกเกียรติบัตร PDF ส่งเข้าอีเมลทันที พร้อมตัวปรับแต่งเทมเพลต กราฟิกสถิติ และระบบสิทธิ์แอดมินระดับองค์กร",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
